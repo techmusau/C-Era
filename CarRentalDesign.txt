@@ -1,0 +1,7 @@
+Customers - {CutomerId, Firstname, Lastname, DateOfBirth, PhoneNumber, Email, Address, State, City, Zip, DriversLicense}
+Cars - { TagNumber, Make, Model, CarYear, Category(FK), Doors}
+Employee - {EmpId, Firstname, Lastname, Title, Password, DoB}
+RentalReservation - {RentalId, Customer(FK), Vehicle(FK), Startdate, Enddate,Status, Notes}
+RentalRates - { Category, Rate}
+States - {State}
+EmpTitles - {Title}

@@ -1,2 +1,9 @@
 What are graphs?
-Graphs: vectors and edges 
+Graphs: vectors and edges (objects and relationships)
+
+Example 1 Social Networking
+What types of objects and relationships does a tweet have? 
+tweets consist of many of the same elements and relationships as the Facebook posts. 
+Tweets have users, they contain text, tweets can point to one another or to URL's, they have hashtags, they can include reference to various other types of media, but what about relationships? 
+
+much like Facebook, relationships and tweets are more reflective of what the users do with tweets. For example, people create tweets, they respond to tweets, they mention other users, and so forth.  

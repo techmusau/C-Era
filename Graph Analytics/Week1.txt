@@ -7,3 +7,16 @@ tweets consist of many of the same elements and relationships as the Facebook po
 Tweets have users, they contain text, tweets can point to one another or to URL's, they have hashtags, they can include reference to various other types of media, but what about relationships? 
 
 much like Facebook, relationships and tweets are more reflective of what the users do with tweets. For example, people create tweets, they respond to tweets, they mention other users, and so forth.  
+
+Use cases: 
+Biological networks- relations between gene information and literature co-relations
+Human information network analytics- co relating linkedin with social networks with cv's etc
+smart cities- graphs the movement of traffic around the city including volume of movement(people getting on and off) and not restricted to traffic, water, wifi, padestrians, etc
+
+Big data V's on graphs - volume, velocity, variety, valence (more valence = more nodes connected)
+
+Variety- data can come from a relational db, xml/json,graph-structured, document
+Variety- social networks, citation networks, interaction networks, semantic web/linked data, ontologies (in there one must capture what it means to be an edge)
+Valence - interconnected-ness = stronger connections, increases over time
+-Modeling the effect of valence
+-Managing the effect of valence

@@ -20,3 +20,5 @@ Variety- social networks, citation networks, interaction networks, semantic web/
 Valence - interconnected-ness = stronger connections, increases over time
 -Modeling the effect of valence
 -Managing the effect of valence
+
+Effect of big data v's on algorithmic complexity

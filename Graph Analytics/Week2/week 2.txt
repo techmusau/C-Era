@@ -1,0 +1,28 @@
+Week2
+Graph analytics - using the mathematical properties of data to come up with a solution
+Analytics- path analytics, connectivity analytics, community analytics, centrality analytics
+Tweets are complex nodes, they have labels or types within it, eg, user hashtag, etc
+Nodes and edges consist of properties defined by the node schema or edge schema, they consist of id, attribute and value areas
+
+When turning data into a graph first thing you should do is identify the information model ie:
+Set of verticies
+set of edges
+set of node types
+type assignment to nodes
+a set of edge types
+type assignment to edges
+set of node attributes
+set of edge attributes
+
+"Weight" and edge property: why weights?; helps indicate 'distance' or, 'strength of connection' or, 'likelyhood of interaction' or, 'certainty of information'
+
+Loops: structural property of data where the edge loops back to its node
+multigraphs: where a node can have multiple types of interaction with another node
+
+Path Analytics:
+Paths are walks of a graph where a node can be visited only once, it does not repeat any edges
+cycle- a path of length greater than or equal to 3 whos start and end vertices are the same
+acyclic - a graph with no cycles
+Trail - a walk with no repeating edges
+reachability - node U is reachable from node V, their is a path from node U to V but not necessarily a path from V to U
+Ifinite nodes or termination nodes have no edges out or no edges in

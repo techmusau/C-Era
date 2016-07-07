@@ -25,4 +25,17 @@ cycle- a path of length greater than or equal to 3 whos start and end vertices a
 acyclic - a graph with no cycles
 Trail - a walk with no repeating edges
 reachability - node U is reachable from node V, their is a path from node U to V but not necessarily a path from V to U
-Ifinite nodes or termination nodes have no edges out or no edges in
+Infinite nodes or termination nodes have no edges out or no edges in
+
+Path Optimization:
+Depends on the needs of the function
+Paths could have inclusive nodes or exclusive nodes
+Dijkstra's algorithm finds the shortest from a single node to all other nodes
+Dijkstra's algorithm: the next node picked to include in the path has the lowest cost add from the current node
+Dijkstra's algorithm is very expensive to execute for large graphs, that is with high computational complexity (Performance of an algorithm is measured by the size of the data)
+
+Inclusion and Exclusuin constraints
+Creating constraints and sub graphs that can solved simultaneously to reduce complexity and time
+Constraints like- no repeating nodes or trail, cyclic walks, acyclic walks
+Diameter of a graph - the maximum number of steps or hops to go to the most distant node in the graph
+(Graphs are a diagram of a mathematical function and charts are graphical representations of data)
